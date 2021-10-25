@@ -1,0 +1,35 @@
+body {margin :0px; 
+}
+
+.header h1{
+color: #cce5ff;
+}
+
+.header img{
+    height: 55px;
+    
+    float: left;
+}
+
+.header h2{
+    color: #c1c1f0;
+    text-decoration: none;
+    font-size: small;
+    list-style: none;
+    
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.header ul a{
+    color: #c1c1f0;
+    text-decoration: none;
+    font-size: smaller;
+    margin-right:13px;
+    font-weight: 600;
+    display: flex;   
+    }
