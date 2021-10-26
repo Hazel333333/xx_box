@@ -58,6 +58,11 @@ color: #cce5ff;
     color: tomato;
 }
 
+/* .followme button:hover{
+    background-color: tomato;
+    color: #fff;
+} */
+
 .icon-diamond,.icon-diamond+span{
     color: tomato;
 }
