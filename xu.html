@@ -27,7 +27,7 @@
                 <div class="date">
                     <li>
                         <i class="iconfont icon-diamond"></i>
-                        <span>0.089</span>
+                        <span class="ling">0.089</span>
                     </li>
                     <li>
                         <span>2020.06.17 15:51:04</span>
@@ -38,9 +38,6 @@
                     <li>
                         <span>阅读 1910</span>
                     </li>
-
-
-
                 </div>
             </div>
         </div>
@@ -51,37 +48,18 @@
 </body>
 
 
+<script src="./IMGS/jquery.js"></script>
 <script>
-    // 字符串 string
-    let a = "qheq 1231dad ad +==d asdq w说的那是的啊撒"
-    // 数组
-    // 对象  key value
-    let d = {
-        "name":"大炮",
-        "age":"88"
-    }
-
-    // boole
-
-    let c = [10,2,3,4,"wq",a,d]
-    let r = [10,2,3,4,"wq",a,d]
-    let q = 10
-    q = 11
-    let w = "11"
-    let status = "10"
-    if(status==1){
-       console.log("123")
-    }
-    else if(status==2){
-        console.log("这是里是2")
-    }
-    else{
-        console.log("else")
-    }
-    for(var i = 0;i<r.length;i++){
-        console.log(r[i])
-    }
+    $('.followme button').hover(function(){
+        var number = $(".ling").text()
+        number = parseFloat(number) + 1
+        $(".ling").text(number) 
+        if(number>=5){
+            $('.ling').css("color","green")
+        }
+    })
 </script>
+
 
 
 
